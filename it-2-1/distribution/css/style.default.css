@@ -181,7 +181,7 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 */
 .intro-section {
   padding-top: 150px;
-  color: #fff;
+  color: #4fbfA8;
 }
 
 .intro-section .logo, .intro-section p {
@@ -1430,10 +1430,10 @@ STYLE SWITCHER FOR DEMO
  */
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #555555;
   background-color: #fff;
 }
 
@@ -1563,6 +1563,7 @@ mark,
 a.text-primary:hover, a.text-primary:focus {
   color: #3aa18c !important;
 }
+
 
 /*
  * 4. PAGINATION
@@ -2338,6 +2339,28 @@ code {
 
 .card-deck .card {
   margin-bottom: 15px;
+}
+.HeaderFont
+{
+  font-size: 80px;
+  font-family: 'Noto Serif', serif;
+}
+
+.nav-tabs{
+  tab-size: 4; 
+}
+.education
+{
+  font-size: 30px;
+}
+.education .info{
+  font-size: 25px;
+}
+.workExpoints
+{
+  list-style-type: square;
+  font-size: 20px;
+  color: #555555;
 }
 
 @media (min-width: 576px) {
